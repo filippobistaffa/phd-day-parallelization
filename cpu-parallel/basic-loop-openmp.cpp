@@ -36,7 +36,7 @@ int main() {
     // Start loop timer
     auto loop = std::chrono::system_clock::now();
     // Element-wise sum (parallel)
-	//omp_set_num_threads(4);
+    //omp_set_num_threads(4);
     #pragma omp parallel for
     for (int i = 0; i < n; ++i) {
         c[i] = a[i] + b[i];

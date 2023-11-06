@@ -40,7 +40,7 @@ int main() {
     std::mt19937 mt(0);
     std::uniform_int_distribution<int> dist(1, 10);
     // Element-wise sum (parallel)
-	//omp_set_num_threads(4);
+    //omp_set_num_threads(4);
     #pragma omp parallel for schedule(dynamic)
     for (int i = 0; i < n; ++i) {
         c[i] = a[i] + b[i];
