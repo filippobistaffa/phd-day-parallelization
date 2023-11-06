@@ -11,7 +11,7 @@
 #include <fmt/chrono.h>
 
 // 2 billion elements
-constexpr int n = 20; 
+constexpr int n = 24; 
 
 void busy_wait(std::chrono::duration<int> duration) {
 
