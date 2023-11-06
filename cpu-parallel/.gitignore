@@ -4,3 +4,5 @@ cmake_install.cmake
 Makefile
 
 basic-loop
+basic-loop-openmp
+dynamic-scheduling

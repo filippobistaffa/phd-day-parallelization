@@ -11,7 +11,7 @@
 #include <fmt/chrono.h>
 
 // 2 billion elements
-constexpr std::size_t n = 20; 
+constexpr int n = 20; 
 
 void busy_wait(std::chrono::duration<int> duration) {
 
@@ -36,10 +36,9 @@ int main() {
     // Start loop timer
     auto loop = std::chrono::system_clock::now();
     // Element-wise sum (parallel)
-    fmt::print("Maximum available threads: {}\n", omp_get_max_threads());
 	//omp_set_num_threads(4);
     #pragma omp parallel for
-    for (std::size_t i = 0; i < n; ++i) {
+    for (int i = 0; i < n; ++i) {
         c[i] = a[i] + b[i];
         busy_wait(std::chrono::seconds(1));
     }
