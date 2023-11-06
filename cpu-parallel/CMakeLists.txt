@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.9)
 
 project(phd-day-cpu-parallel)
-set(CMAKE_CXX_STANDARD 20)
 
 set(PEDANTIC_COMPILE_FLAGS
     -pedantic-errors
@@ -19,7 +18,7 @@ set(OPTIMIZATION_COMPILE_FLAGS
 find_package(OpenMP REQUIRED)
 include_directories(fmt/include)
 
-set(EXAMPLES "basic-loop")
+set(EXAMPLES "basic-loop" "basic-loop-openmp")
 
 foreach (EXAMPLE ${EXAMPLES})
     add_executable(${EXAMPLE} ${EXAMPLE}.cpp)

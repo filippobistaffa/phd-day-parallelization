@@ -34,7 +34,8 @@ int main() {
     std::iota(std::begin(b), std::end(b), 0);
     // Start loop timer
     auto loop = std::chrono::system_clock::now();
-    // Element-wise sum
+    // Element-wise sum (parallel)
+    #pragma omp parallel for
     for (std::size_t i = 0; i < n; ++i) {
         c[i] = a[i] + b[i];
         busy_wait(std::chrono::seconds(1));
