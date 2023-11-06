@@ -1,0 +1,3 @@
+[submodule "cpu-parallel/fmt"]
+	path = cpu-parallel/fmt
+	url = https://github.com/fmtlib/fmt
