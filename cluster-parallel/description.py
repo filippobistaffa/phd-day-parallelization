@@ -18,7 +18,6 @@ if __name__ == "__main__":
     llama_cpp_subdir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'llama.cpp')
     llama_cpp_params = {
         '--model': os.path.join(llama_cpp_subdir, 'models', 'vicuna-13b-v1.5-16k.Q4_K_M.gguf'),
-        '--log-file': '/dev/null',
         '--repeat_penalty': '1.1',
         '--ctx-size': '4096',
         '--n-predict': '-1',
@@ -32,7 +31,7 @@ if __name__ == "__main__":
     prompt = f'Give me the description of a professional course to learn how to {skills_string}'
 
     # build subprocess (llama.cpp) command-line
-    command_line = [os.path.join(llama_cpp_subdir, 'main'), '--escape']
+    command_line = [os.path.join(llama_cpp_subdir, 'main'), '--escape', '--log-disable']
     command_line.extend(['--prompt', f'USER: {prompt}\nASSISTANT:'])
     for (param, value) in llama_cpp_params.items():
         command_line.extend([param, value])
