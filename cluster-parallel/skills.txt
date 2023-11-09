@@ -1,0 +1,752 @@
+Administer compensation or benefits programs
+Administer staff recruitment or hiring activities
+Administer tests to assess educational needs or progress
+Advise communities or institutions regarding health or safety issues
+Advise customers on technical or procedural issues
+Advise customers on the use of goods or services
+Advise educators on curricula, instructional methods or policies
+Advise others about environmental management or conservation
+Advise others on business or operational matters
+Advise others on career or personal development
+Advise others on financial matters
+Advise others on health and safety issues
+Advise others on health care issues
+Advise others on health care matters
+Advise others on human resources topics
+Advise others on legal or regulatory compliance matters
+Advise others on matters of public policy
+Advise others on technical requirements for surveying, mapping and spatial information systems
+Advise others regarding green practices or environmental concerns
+Analyse and understand the local and national implications of proposed legislation
+Analyse budgetary, accounting or business data
+Analyse business or financial data
+Analyse consumer trends
+Analyse data to assess operational or project effectiveness
+Analyse data to determine project feasibility
+Analyse data to identify or resolve operational problems
+Analyse data to identify trends or relationships among variables
+Analyse data to inform operational decisions or activities
+Analyse data to inform staffing decisions
+Analyse design or requirements information for mechanical equipment or systems
+Analyse design requirements for computer or electronics systems
+Analyse financial information
+Analyse financial records to improve budgeting or planning
+Analyse financial records to improve efficiency
+Analyse health-related data
+Analyse impact of legal or regulatory changes
+Analyse industry trends
+Analyse jobs using observation, survey or interview techniques
+Analyse market conditions or trends
+Analyse market or customer related data
+Analyse market research data
+Analyse operational data
+Analyse operational data to evaluate operations, processes or products
+Analyse physical, survey, or geographic data
+Analyse project data to determine specifications or requirements
+Analyse risks related to investments in green technology
+Analyse risks to minimise losses or damages
+Analyse security of systems, network or data
+Analyse test or validation data
+Analyse website or related online data to track trends or usage
+Answer customer questions about goods or services
+Anticipate the organisational implications of machine learning models
+Apply and maintain information security controls as required by policies or risk assessments
+Apply finishes to artwork, crafts, or displays
+Apply information technology to solve business or other applied problems
+Apply knowledge, understanding and respect of culturally significant sites or objects
+Apply machine learning techniques to data
+Apply mathematical models of financial or business conditions
+Apply mathematical principles or statistical approaches to solve problems in scientific or applied fields
+Apply new technologies to improve work processes
+Appraise environmental impact of regulations or policies
+Appraise property values
+Approve expenditures
+Arrange artwork, products or props
+Arrange collective bargaining agreements
+Arrange delivery of goods or services
+Assess database performance
+Assess educational needs of students
+Assess financial status of clients
+Assess individual or community needs for educational or social services
+Assess network-related risks and specify recovery routines and contingency procedures
+Assess risks to business operations
+Assess the cost effectiveness of products, projects or services
+Assign duties or work schedules to employees
+Attend events to develop professional knowledge
+Attend receptions, dinners, and conferences to meet people, exchange views and information, and develop working relationships
+Attend training sessions or events to develop or maintain professional knowledge
+Authorise financial actions
+Build models, patterns or templates
+Calculate data to inform organisational operations
+Calculate financial data
+Calculate geographic positions from survey data
+Calculate tax information
+Calculate the volume or depth of liquids or gases
+Calibrate scientific or technical equipment
+Classify materials according to standard systems
+Clean equipment or facilities
+Clean work areas
+Coach others
+Collaborate with health care professionals to plan or provide treatment
+Collaborate with other law enforcement or security agencies to share information
+Collaborate with other teaching professionals to develop educational programs
+Collaborate with others in marketing activities
+Collaborate with others to determine design specifications or details
+Collaborate with others to determine technical details of productions
+Collaborate with others to develop or implement marketing strategies
+Collaborate with others to develop or refine designs
+Collaborate with others to prepare or perform artistic productions
+Collaborate with others to resolve information technology issues
+Collaborate with technical specialists to resolve design or development problems
+Collate and analyse information for threat intelligence requirements from a variety of sources
+Collect data about customer needs
+Collect data about project sites
+Collect environmental data or samples
+Collect evidence for legal proceedings
+Collect information about community health needs
+Collect medical information from patients, family members or other medical professionals
+Collect payments for goods or services
+Collect samples of raw materials or finished products
+Collect, process and preserve digital records or evidence in accordance with procedures
+Communicate health and wellness information to the public
+Communicate organisational information to customers or other stakeholders
+Communicate organisational policies and procedures
+Communicate project information to others
+Communicate results of environmental research
+Communicate technical information to suppliers, contractors or regulatory agencies
+Communicate with customers to resolve complaints or ensure satisfaction
+Communicate with government agencies
+Communicate with management or other staff to resolve problems
+Communicate with other construction or mining staff to discuss project details
+Communicate with others to coordinate vehicle movement
+Communicate with the public on environmental issues
+Compile data or documentation
+Compile operational data
+Compile specialised bibliographies or lists of materials
+Compute debt repayment schedules
+Conduct eligibility or selection interviews
+Conduct employee training programs
+Conduct financial audits
+Conduct financial or regulatory audits
+Conduct gaming transactions
+Conduct legal cyberattack simulations by designing and utilising hacking tools
+Conduct market research
+Conduct opinion surveys or needs assessments
+Conduct quantitative failure analyses of operational data
+Conduct research on social issues
+Conduct research to gain information about products or processes
+Conduct research to inform art, designs or other work
+Conduct surveys in organisations
+Conduct validation tests of equipment or processes
+Confer with clients to determine needs
+Confer with co-workers or internal stakeholders to coordinate operational activities
+Confer with colleagues to formulate positions and strategies pertaining to pending issues
+Confer with other staff to resolve design or operational problems
+Confer with others about financial matters
+Confer with others to conduct or arrange operational activities
+Confer with peers to accomplish work
+Confer with staff to coordinate business operations
+Confer with technical staff to prepare designs or operational plans
+Configure computer networks
+Construct distinctive physical objects for artistic, functional or commercial purposes
+Construct exhibits or parts of exhibits
+Consult with others regarding health and safety associated with equipment or facilities
+Contact current or potential customers to promote goods or services
+Convert data among multiple digital or analogue formats
+Coordinate activities of food service staff
+Coordinate activities with suppliers, contractors, clients, or other departments
+Coordinate and administer community or social service programs
+Coordinate construction or installation activities
+Coordinate design activities
+Coordinate logistics for productions or events
+Coordinate operational activities
+Coordinate operational activities with external stakeholders
+Coordinate project activities with other staff or departments
+Coordinate recruitment activities
+Coordinate regulatory documentation activities
+Coordinate resource procurement activities
+Coordinate safety or regulatory compliance activities
+Coordinate sales campaigns
+Coordinate software or hardware installation
+Coordinate special events or programs
+Coordinate with external parties to exchange information
+Correspond with customers to answer questions or resolve complaints
+Create computer-generated graphics or animation
+Create construction or installation diagrams
+Create databases to store electronic data
+Create electrical schematics
+Create electronic data backup to prevent loss of information
+Create graphical representations of civil structures
+Create graphical representations of industrial production systems
+Create graphical representations of mechanical equipment
+Create graphical representations of structures, landscapes or aquatic systems
+Create images of data, locations or products
+Create maps
+Create marketing materials
+Create models of engineering designs or methods
+Create physical models or prototypes
+Create schematic drawings for electronics
+Create technology-based learning materials
+Deliver promotional presentations to current or prospective customers
+Deliver, publish, broadcast or distribute final audio or visual media product
+Demonstrate products to consumers
+Design alternative energy systems
+Design civil structures or systems
+Design computer modelling or simulation programs
+Design control systems for mechanical or other equipment
+Design electrical equipment or systems
+Design electromechanical equipment or systems
+Design electronic or computer equipment or instrumentation
+Design energy efficient equipment or systems
+Design energy production or management equipment or systems
+Design environmental control systems
+Design industrial equipment
+Design industrial processing systems
+Design integrated computer systems
+Design layout of art or product exhibits, displays or promotional materials
+Design layouts for print publications
+Design public or employee health programs
+Design research studies to obtain scientific information
+Design structures or facilities
+Design water conservation systems
+Design websites or applications
+Determine appropriate locations for operations or installations
+Determine appropriate methods for data analysis
+Determine causes of operational problems or failures
+Determine design criteria or specifications
+Determine how best to represent a concept visually
+Determine operational compliance with regulations or standards
+Determine operational criteria or specifications
+Determine operational methods
+Determine operational procedures
+Determine prices for menu items
+Determine pricing or monetary policies
+Determine resource needs
+Determine technical requirements of productions or projects
+Determine the value of goods or services
+Develop artistic or design concepts for decoration, exhibition, performance or commercial purposes
+Develop business or financial information systems
+Develop business or market strategies
+Develop business relationships
+Develop computer or information security policies or procedures
+Develop computer or information systems
+Develop content for sales presentations or other materials
+Develop contingency plans to deal with organisational emergencies
+Develop data analysis or data management procedures
+Develop database parameters or specifications
+Develop detailed project plans
+Develop diagrams or flow charts of system operation
+Develop educational goals, standards, policies or procedures
+Develop emergency procedures
+Develop environmental research methods
+Develop environmental sustainability plans or projects
+Develop financial plans for clients
+Develop guidelines for system implementation
+Develop information communication procedures
+Develop instructional materials
+Develop instructional objectives
+Develop library or archival databases
+Develop marketing plans or strategies
+Develop marketing plans or strategies for environmental initiatives
+Develop mathematical models of environmental conditions
+Develop methods of social or economic research
+Develop models of information or communications systems
+Develop operating strategies, plans or procedures
+Develop organisational goals or objectives
+Develop organisational methods or procedures
+Develop organisational policies or programs
+Develop performance metrics or standards related to information technology
+Develop plans for programs or services
+Develop plans to manage natural or renewable resources
+Develop policies or procedures for archives, museums or libraries
+Develop pricing forecasts and models
+Develop procedures for data entry or processing
+Develop procedures for data management
+Develop procedures to evaluate organisational activities
+Develop professional relationships or networks
+Develop programs, policies or services that are culturally appropriate
+Develop promotional materials
+Develop promotional strategies or plans
+Develop proposals for current or prospective customers
+Develop safety standards, policies or procedures
+Develop scientific or mathematical models
+Develop social media materials
+Develop software applications
+Develop specifications for computer network operation
+Develop specifications or procedures for website development or maintenance
+Develop strategies or programs for students with accessibility needs
+Develop surveying and land information systems
+Develop sustainable organisational policies or practices
+Develop technical methods or processes
+Develop technical specifications for systems or equipment
+Develop testing routines or procedures
+Develop training materials
+Devise research or testing protocols
+Direct activities of staff
+Direct administrative or support services
+Direct construction activities
+Direct department activities
+Direct design or development activities
+Direct energy production or management activities
+Direct environmental development activities
+Direct equipment maintenance or repair activities
+Direct facility maintenance or repair activities
+Direct financial operations
+Direct health care delivery programs
+Direct industrial production activities
+Direct installation activities
+Direct organisational operations, projects or services
+Direct quality control activities
+Direct sales, marketing or customer service activities
+Direct surveying activities
+Disassemble equipment to inspect for deficiencies
+Disburse funds from clients' accounts to creditors
+Discuss business strategies, practices or policies with managers
+Discuss design or technical features of goods or services with technical staff
+Discuss designs or plans with clients
+Discuss student progress with parents or guardians
+Distribute promotional literature or samples to customers
+Distribute resources to patrons or employees
+Document design or development procedures
+Document design or operational test results
+Document network-related activities or tasks
+Document operational activities
+Document operational procedures
+Document organisational or operational procedures
+Document technical design details
+Document technical specifications or requirements
+Document test results
+Draft legislation or regulations
+Draw detailed or technical illustrations
+Edit documents
+Edit written materials
+Educate clients on financial planning topics
+Enforce rules or policies governing student behaviour
+Enforce rules or regulations
+Ensure business strategies comply with information security standards
+Entertain public with performances
+Establish business management methods
+Establish interpersonal business relationships to facilitate work activities
+Establish nursing policies or standards
+Establish operational policies
+Establish organisational guidelines or policies
+Establish rules or policies governing student behaviour
+Establish standards for products, processes or procedures
+Estimate cost or material requirements
+Estimate costs for projects or productions
+Estimate costs of goods or services
+Estimate costs or terms of sales
+Estimate demand for goods or services
+Estimate green project costs
+Estimate labour or resource requirements for forestry, fishing or agricultural operations
+Estimate labour requirements
+Estimate operational costs
+Estimate technical or resource requirements for development or production projects
+Estimate time or monetary resources needed to complete projects
+Evaluate applicable laws and regulations to determine impact on organisational activities
+Evaluate characteristics of archival or historical objects
+Evaluate characteristics of equipment or systems
+Evaluate characteristics of products
+Evaluate civic projects or public policies
+Evaluate condition of properties
+Evaluate data quality
+Evaluate designs or specifications to ensure quality
+Evaluate effectiveness of staff policies or practices
+Evaluate employee performance
+Evaluate new technologies or methods
+Evaluate performance of educational staff
+Evaluate plans or specifications to determine technological or environmental implications
+Evaluate potential of products, technologies or resources
+Evaluate program effectiveness
+Evaluate project designs to determine adequacy or feasibility
+Evaluate quality of materials or products
+Evaluate scholarly materials
+Evaluate staff practices to ensure adherence to regulations
+Evaluate student work
+Evaluate technical data to determine effect on designs or plans
+Evaluate training programs, instructors or materials
+Evaluate utility of software or hardware technologies
+Examine condition of property or products
+Examine documents to verify adherence to requirements
+Examine financial records
+Examine financial records or processes
+Examine financial records to ensure compliance with policies or regulations
+Examine marketing materials to ensure compliance with policies or regulations
+Examine records or other types of data to investigate criminal activities
+Execute sales or other financial transactions
+Explain engineering drawings, specifications or other technical information
+Explain financial information to customers
+Explain project details to the general public
+Explain regulations, policies or procedures
+Explain technical product or service information to customers
+Fabricate products or components using machine tools
+Forecast economic, political, social or financial trends
+Gather customer or product information to determine customer needs
+Gather financial records
+Gather organisational performance information
+Gather physical survey data
+Greet customers, patrons or visitors
+Help patrons use library or archival resources
+Hire staff
+Identify information technology project resource requirements
+Identify investment opportunities or strategies
+Identify new applications for existing technologies
+Identify opportunities to improve operational efficiency
+Identify potential customers
+Identify security threats and determine counter measures
+Identify strategic business investment opportunities
+Implement advertising or marketing initiatives
+Implement design or process improvements
+Implement financial decisions
+Implement organisational process or policy changes
+Implement security measures for computer or information systems
+Incorporate green features into the design of structures or facilities
+Inform individuals or organisations of status or findings
+Inform others about laws or regulations
+Inform viewers, listeners or audiences
+Inspect condition, or functioning, of facilities or equipment
+Inspect equipment or systems
+Inspect equipment to ensure proper functioning
+Inspect facilities
+Inspect facilities or sites to determine if they meet specifications or standards
+Inspect facilities to ensure compliance with fire regulations
+Inspect facilities, equipment or supplies to ensure conformance to standards
+Inspect finished products to locate flaws
+Inspect locomotives or other railway equipment
+Inspect materials or equipment to determine need for repair or replacement
+Inspect operational processes
+Inspect work environments to ensure safety
+Install computer hardware
+Install computer software
+Install instrumentation or electronic equipment or systems
+Install production equipment or systems
+Instruct tertiary students in social sciences or humanities disciplines
+Interpret design or operational test results
+Interpret financial information for others
+Interpret research or operational data
+Interview clients to gather financial information
+Interview employees, customers or others to collect information
+Interview people to gather information about criminal activities
+Inventory materials or equipment
+Investigate illegal or suspicious activities
+Investigate industrial or transportation accidents
+Investigate legal issues
+Investigate safety of work environment
+Investigate system, equipment or product failures
+Investigate the environmental impact of projects
+Issue money, credit or vouchers
+Liaise between departments or other groups to improve function or communication
+Locate natural resources using geospatial or other environmental data
+Maintain a working understanding of the cultural, diversity and accessibility needs of others, and how this applies to the role
+Maintain client records
+Maintain computer hardware
+Maintain computer networks to enhance performance and user access
+Maintain contingency plans for disaster recovery
+Maintain current knowledge related to work activities
+Maintain data in information systems or databases
+Maintain electronic equipment
+Maintain financial or account records
+Maintain food, drink or equipment inventories
+Maintain inventories of materials, equipment or products
+Maintain inventory records
+Maintain knowledge of business operations
+Maintain knowledge of current developments in area of expertise
+Maintain knowledge of relevant national and international current events
+Maintain logs of production activities
+Maintain mechanical equipment
+Maintain operational records
+Maintain operational records or records systems
+Maintain professional knowledge or certifications
+Maintain records of customer accounts
+Maintain records of sales or other business transactions
+Maintain records, documents or other files
+Maintain regulatory or compliance documentation
+Maintain staff records
+Maintain test equipment
+Maintain the inventory of equipment
+Make devices or components
+Manage budgets for appropriate resource allocation
+Manage budgets for personal services operations
+Manage construction activities
+Manage content of broadcasts or presentations
+Manage control system activities in organisations
+Manage documentation to ensure organisation or accuracy
+Manage environmental sustainability projects
+Manage financial activities of the organisations
+Manage food service operations
+Manage guest services
+Manage health care operations
+Manage human resources activities
+Manage information technology projects or system activities
+Manage inventories of products or organisational resources
+Manage operations, research or logistics projects
+Manage organisational or project budgets
+Manage outreach activities
+Manage project risk
+Market goods, services or events
+Measure effectiveness of business strategies or practices
+Measure environmental characteristics
+Mediate disputes
+Mix sound inputs
+Modify software programs to improve performance
+Modify teaching methods or materials to accommodate student needs
+Monitor activities affecting environmental quality
+Monitor activities of individuals to ensure safety or compliance with rules
+Monitor availability of equipment or supplies
+Monitor business indicators
+Monitor computer system performance to ensure proper operation
+Monitor current trends
+Monitor equipment gauges or displays
+Monitor external affairs or events affecting business operations
+Monitor facilities or operational systems
+Monitor financial indicators
+Monitor flow of cash or other resources
+Monitor inventories
+Monitor market conditions or trends
+Monitor operational activities to ensure compliance with regulations or standard operating procedures
+Monitor operational quality or safety
+Monitor organisational compliance with regulations
+Monitor organisational procedures to ensure proper functioning
+Monitor patron activities to identify problems or potential problems
+Monitor performance of organisational members or partners
+Monitor processes for compliance with standards
+Monitor resources
+Monitor sales activities
+Monitor surroundings to detect potential hazards
+Monitor the performance of computer networks
+Monitor the productivity or efficiency of industrial operations
+Monitor the security of digital information
+Monitor work areas to provide security
+Negotiate agreements to resolve disputes
+Negotiate contracts for transportation, distribution or logistics services
+Negotiate contracts with clients or service providers
+Negotiate labour disputes
+Negotiate prices or other sales terms
+Negotiate purchases or contracts
+Negotiate sales or lease agreements for goods or services
+Notify others of equipment problems
+Observe individuals' activities to gather information or compile evidence
+Operate audio recording equipment
+Operate computer systems
+Operate control consoles for sound, lighting or video
+Operate gaming equipment
+Operate still or video cameras or related equipment
+Operate surveillance equipment to detect suspicious or illegal activities
+Order instructional or library materials or equipment
+Order materials, supplies, or equipment
+Organise informational materials
+Organise special events
+Oversee business processes
+Package materials for transport
+Participate in staffing decisions
+Perform administrative or clerical tasks
+Perform basic equipment maintenance
+Perform human resources activities
+Perform manual service or maintenance tasks
+Perform marketing activities
+Plan and manage, and analyse costs and benefits of, proposed designs or projects
+Plan community programs or activities for the general public
+Plan environmental research
+Plan facility layouts or designs
+Plan menu options
+Prepare analytical reports
+Prepare contracts, disclosures or applications
+Prepare data for analysis
+Prepare detailed work plans
+Prepare financial documents
+Prepare financial documents, reports or budgets
+Prepare forms or applications
+Prepare graphics or other visual representations of information
+Prepare information or documentation related to legal or regulatory matters
+Prepare instruction manuals
+Prepare investigation or incident reports
+Prepare materials for preservation, storage or display
+Prepare materials for processing
+Prepare operational budgets
+Prepare operational progress or status reports
+Prepare operational reports
+Prepare operational reports or records
+Prepare procedural documents
+Prepare production storyboards
+Prepare project budgets
+Prepare proposal documents
+Prepare proposal documents or grant applications
+Prepare proposals or grant applications to obtain project funding
+Prepare regulatory or compliance documentation
+Prepare reports detailing student activities or performance
+Prepare reports related to compliance matters
+Prepare research or technical reports
+Prepare research reports
+Prepare sales or other contracts
+Prepare scientific or technical reports or presentations
+Prepare staff schedules or work assignments
+Prepare technical or operational reports
+Prepare technical reports for internal use
+Prepare tests
+Present business-related information
+Present information to the public
+Present research results
+Present work to clients for approval
+Process library materials
+Process medical billing information
+Process sales or other transactions
+Procure goods or services
+Procure materials, equipment or other resources
+Procure stocks of merchandise or supplies
+Promote educational institutions or programs
+Promote environmental sustainability or conservation initiatives
+Promote goods, services, or programs
+Promote products, activities, or organisations
+Provide attraction or event information to patrons
+Provide basic information to guests, visitors, or clients
+Provide customer service to clients or users
+Provide customers with general information or assistance
+Provide educational information to the public
+Provide information to co-workers
+Provide information to the general public
+Provide leadership to align operational activities with the organisation’s vision and goals
+Provide mentorship and guidance to staff
+Provide recommendations to others about computer hardware or software
+Provide technical assistance to clients or users
+Provide technical guidance to other staff
+Provide technical support for computer network issues
+Provide technical support for software maintenance or use
+Publish content on digital platforms or social media sites
+Read documents to gather technical information
+Reassemble equipment after repair
+Receive information or instructions for performing work assignments
+Recommend changes to improve computer or information systems
+Recommend goods or services to customers
+Recommend investments to clients
+Recommend organisational process or policy changes
+Recommend technical design or process changes to improve efficiency, quality or performance
+Reconcile records of sales or other financial transactions
+Record information about parts, materials or repair procedures
+Record information about suspects or criminals
+Record operational or production data
+Record personnel information
+Record research or operational data
+Recruit staff
+Repair precision devices or work pieces
+Report information to managers or other staff
+Report maintenance or equipment problems to appropriate personnel
+Represent the organisation in external relations
+Research advanced engineering designs or applications
+Research design or application of green technologies
+Research engineering applications of emerging technologies
+Research engineering aspects of biological or chemical processes
+Research environmental impact of industrial or development activities
+Research human performance or health factors related to engineering or design activities
+Research impacts of environmental conservation initiatives
+Research industrial processes or operations
+Research issues related to the environment or sustainable business practices
+Research new technologies
+Research product safety
+Research social issues
+Research sustainable agricultural processes or practices
+Research topics in area of expertise
+Resolve computer network problems
+Resolve computer software problems
+Resolve customer complaints or problems
+Resolve employee or contractor problems
+Resolve operational performance problems
+Respond to customer inquiries
+Respond to customer problems or complaints
+Respond to cyber attacks and restore protection to systems if compromised
+Retrieve information from electronic sources
+Review accuracy of sales or other transactions
+Review art or design materials
+Review blueprints or specifications to determine work requirements
+Review computer information systems, procedures and networks
+Review details of technical drawings or specifications
+Review documents or materials for compliance with policies or regulations
+Review environmental permits, plans or reports
+Review laws or regulations to maintain professional knowledge
+Review license or permit applications
+Review plans or proposals for environmental conservation
+Review professional literature to maintain professional knowledge
+Review technical documents to plan work
+Schedule activities or facility use
+Schedule appointments
+Schedule operational activities
+Schedule product or material transportation
+Schedule release of marketing content
+Search files, databases or reference materials to obtain information
+Search information sources to find data
+Select educational materials or equipment
+Select materials or props
+Select project materials
+Select tools, equipment, or technologies for use in operations or projects
+Sell goods or services
+Send information, materials or documentation
+Serve food or drinks
+Serve on institutional or departmental committees
+Set up merchandise displays
+Share sales-related or market information with colleagues
+Signal others to coordinate vehicle movement
+Stay informed about current developments in field of specialisation
+Stock products or parts
+Study product information to acquire professional knowledge
+Study scripts to determine project requirements
+Submit financial applications
+Supervise clerical or administrative staff
+Supervise employees
+Supervise engineering or other technical staff
+Supervise information technology staff
+Supervise medical support staff
+Supervise production or support staff
+Supervise sales or support staff
+Supervise scientific or technical staff
+Supervise service workers
+Supervise trainees
+Survey land or bodies of water
+Teach classes in area of specialisation
+Teach in area of specialisation
+Teach others to use computer equipment or hardware
+Teach others to use technology or equipment
+Teach safety standards or environmental compliance methods
+Test characteristics of materials or structures
+Test computer hardware performance
+Test computer system operations to ensure proper functioning
+Test facilities for environmental hazards
+Test performance of electrical, electronic, mechanical, or integrated systems or equipment
+Test products for functionality or quality
+Test software performance
+Testify at legal or legislative proceedings
+Train employees on environmental awareness, conservation or safety topics
+Train food preparation or food service staff
+Train managerial staff
+Train medical providers
+Train others in computer interface or software use
+Train others in cyber security issues
+Train others on work processes
+Train sales staff
+Train service staff
+Train staff
+Train staff in organisational or compliance procedures
+Train staff members
+Train staff on proper operational procedures
+Train staff to improve their skills
+Troubleshoot equipment or systems operation problems
+Troubleshoot issues with computer applications or systems
+Update computer database information
+Update knowledge about emerging industry or technology trends
+Update knowledge of legal or regulatory environments
+Update professional knowledge
+Update technical knowledge
+Update website content
+Use databases to locate investigation details or other information
+Verify accuracy of data
+Verify accuracy of financial information
+Verify accuracy of patient information
+Verify accuracy of records
+Verify application data to determine program eligibility
+Verify customer credit information
+Verify mathematical calculations
+Visit establishments to evaluate needs or to promote products or service sales
+Write advertising or promotional material
+Write articles, books or other materials
+Write computer programming code
+Write grant proposals
+Write informational material
+Write reports or evaluations
