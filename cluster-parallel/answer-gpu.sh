@@ -5,7 +5,7 @@
 #SBATCH --time=10:00
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=20
-#SBATCH --mem=12GB
+#SBATCH --mem=16GB
 #SBATCH --output=answer-gpu.out
 #SBATCH --error=answer-gpu.err
 
