@@ -12,4 +12,4 @@ MODEL="${LLAMA_CPP_HOME}/models/vicuna-13b-v1.5-16k.Q4_K_M.gguf"
 
 PROMPT="The Answer to the Ultimate Question of Life, the Universe, and Everything is"
 
-srun ${LLAMA_CPP_HOME}/build/bin/main --model ${MODEL} --prompt "${PROMPT}" --escape --log-file answer --repeat_penalty 1.1 --ctx-size 4096 --n-predict -1 --temp 0.7 --seed 0
+srun ${LLAMA_CPP_HOME}/build/bin/main --model ${MODEL} --prompt "${PROMPT}" --escape --log-disable --repeat_penalty 1.1 --ctx-size 4096 --n-predict -1 --temp 0.7 --seed 0
