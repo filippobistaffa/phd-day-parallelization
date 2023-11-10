@@ -8,4 +8,4 @@
 #SBATCH --error=description-%j.err
 
 spack load --first py-pandas
-srun python3 description.py --threads 20
+srun python3 description.py
