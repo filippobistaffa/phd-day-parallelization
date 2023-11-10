@@ -12,12 +12,14 @@ if __name__ == "__main__":
     parser = ap.ArgumentParser()
     parser.add_argument('--skills_dataset', type=str, default=os.path.join(os.path.dirname(os.path.realpath(__file__)), 'skills.txt'))
     parser.add_argument('--n_skills', type=int, default=3)
+    parser.add_argument('--seed', type=int, default=0)
     args, additional = parser.parse_known_args()
 
     # default llama.cpp parameters
     llama_cpp_subdir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'llama.cpp')
     llama_cpp_params = {
         '--model': os.path.join(llama_cpp_subdir, 'models', 'vicuna-13b-v1.5-16k.Q4_K_M.gguf'),
+        '--seed': str(args.seed),
         '--repeat_penalty': '1.1',
         '--ctx-size': '4096',
         '--n-predict': '-1',
@@ -25,6 +27,7 @@ if __name__ == "__main__":
     }
 
     # build prompt
+    np.random.seed(args.seed)
     skills_list = pd.read_csv(args.skills_dataset, sep='\t', header=None).values.ravel()
     skills_sample = np.random.choice(skills_list, size=args.n_skills)
     skills_string = ', '.join(skills_sample[:-1]).lower() + ', and ' + skills_sample[-1].lower()
