@@ -34,7 +34,7 @@ if __name__ == "__main__":
     prompt = f'Give me the description of a professional course to learn how to {skills_string}'
 
     # build subprocess (llama.cpp) command-line
-    command_line = [os.path.join(llama_cpp_subdir, 'main'), '--escape', '--log-disable']
+    command_line = [os.path.join(llama_cpp_subdir, 'build', 'bin' ,'main'), '--escape', '--log-disable']
     command_line.extend(['--prompt', f'USER: {prompt}\nASSISTANT:'])
     for (param, value) in llama_cpp_params.items():
         command_line.extend([param, value])
