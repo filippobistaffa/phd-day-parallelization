@@ -7,4 +7,4 @@ then
 fi
 
 cmake -S llama.cpp -B llama.cpp/build
-cmake --build llama.cpp/build --config Release -- -j4
+cmake --build llama.cpp/build --config Release -- -j
