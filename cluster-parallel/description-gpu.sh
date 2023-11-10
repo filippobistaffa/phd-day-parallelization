@@ -12,4 +12,4 @@
 spack load cuda@11.8.0
 spack load --first py-pandas
 
-srun python3 description.py --threads 20 --n-gpu-layers 30
+srun python3 description.py --threads 20 --n-gpu-layers 40
