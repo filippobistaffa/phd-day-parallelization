@@ -1,0 +1,70 @@
+% definitions
+
+\newcommand{\wrt}{\textit{wrt}}
+
+\newcommand{\titleicon}[2]{%
+\makebox[\framewidth]{#1\hfill\raisebox{-0.25ex}{\includegraphics[height=5mm]{img/icons/#2}}}%
+}
+
+\newcommand{\icon}[1]{%
+\mathord{\raisebox{-0.25ex}{\includegraphics[height=2ex]{#1}}}%
+}
+
+\newcommand{\inline}[1] {%
+\mathord{\raisebox{-0.5ex}{\includegraphics[height=2.5ex]{img/#1}}}%
+}
+
+\makeatletter
+\newcommand*{\shiftbox}[2]{%
+    \settowidth{\@tempdima}{#2}%
+    \makebox[\@tempdima]{\hspace*{#1}#2}%
+}
+\makeatother
+
+% dashed box
+
+\usepackage{environ}
+
+\NewEnviron{dashedbox}{
+    \par
+    \begin{tikzpicture}
+        \node[rectangle,minimum width=0.9\textwidth] (m) {\begin{minipage}{0.85\textwidth}\BODY\end{minipage}};
+        \draw[dashed] (m.south west) rectangle (m.north east);
+    \end{tikzpicture}
+}
+
+% don't use ugly monospace font for URLs
+
+\urlstyle{same}
+
+% contour text
+
+\usepackage[outline]{contour}
+
+% use title field
+
+\usepackage{authoraftertitle}
+
+% euro symbol
+
+\usepackage[official]{eurosym}
+
+% use Font Awesome icons
+
+\usepackage{fontawesome}
+
+% comment
+
+\usepackage{comment}
+
+% tikz
+
+\usepackage{tikz}
+\usepackage{varwidth}
+\usetikzlibrary{calc,fit,positioning,shapes}
+\usetikzlibrary{decorations.pathreplacing,calc}
+\usetikzlibrary{arrows,arrows.meta} % Stealth
+\usetikzlibrary{overlay-beamer-styles} % alt
+\tikzstyle{label_side}=[anchor=west,align=left,xshift=1mm,font=\scriptsize]
+\tikzstyle{label_below}=[anchor=north,align=center,yshift=-5mm,font=\small]
+\tikzstyle{label_above}=[anchor=base,align=center,yshift=2mm,font=\small]
