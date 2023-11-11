@@ -67,6 +67,9 @@
             \node[outer sep=\border] at (+1,0) (w) {\includegraphics[height=2cm]{img/icons/workstation}};
             \draw[thick,-{Stealth}] (u) -- node[above] {Write\vphantom{Jpy}} (s);
             \draw[thick,-{Stealth}] (s) -- node[above] {Execute\vphantom{Jpy}} (w);
+            \node[anchor=north,align=center] at (u.south) {Programmer};
+            \node[anchor=north,align=center] at (s|-u.south) {Software};
+            \node[anchor=north,align=center] at (w|-u.south) {Workstation};
         \end{tikzpicture}
     \end{figure}
 \end{frame}
@@ -81,6 +84,9 @@
             \node[outer sep=\border] at ($(u)!0.5!(c)$) (s) {\includegraphics[height=1cm]{img/icons/software}};
             \draw[thick,-{Stealth}] (u) -- node[above] {Write\vphantom{Jpy}} (s);
             \draw[thick,-{Stealth}] (s) -- node {\includegraphics[height=5mm]{img/icons/forbidden}} (c);
+            \node[anchor=north,align=center] at (u.south) {Programmer};
+            \node[anchor=north,align=center] at (s|-u.south) {Software};
+            \node[anchor=north,align=center] at (c|-u.south) {CAP-IA/CESGA};
         \end{tikzpicture}
     \end{figure}
 \end{frame}
@@ -97,6 +103,10 @@
             \draw[thick,-{Stealth}] (u) -- node[above] {Write\vphantom{Jpy}} (s);
             \draw[thick,-{Stealth}] (s) -- node[above] {Copy\vphantom{Jpy}} (l);
             \draw[thick,-{Stealth}] (l) -- node[above] {Job\vphantom{Jpy}} (c);
+            \node[anchor=north,align=center] at (u.south) {Programmer};
+            \node[anchor=north,align=center] at (s|-u.south) {Software};
+            \node[anchor=north,align=center] at (l|-u.south) {\texttt{vega.iiia.csic.es}};
+            \node[anchor=north,align=center] at (c|-u.south) {CAP-IA};
         \end{tikzpicture}
     \end{figure}
 \end{frame}
