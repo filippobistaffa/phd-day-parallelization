@@ -23,4 +23,38 @@
     \titlepage
 \end{frame}
 
+\begin{frame}<{1,2}>[label=types]
+    \frametitle{\titleicon{Types of Parallelization}{cpu}}
+    \begin{figure}
+        \begin{tikzpicture}[
+            xscale=5,
+            only1/.style = {alt=<1>{opacity=1}{opacity=0.2}},
+            only123/.style = {alt=<{1,2,3}>{opacity=1}{opacity=0.2}},
+            only124/.style = {alt=<{1,2,4}>{opacity=1}{opacity=0.2}},
+        ]
+            \def\photosize{3.5cm}
+            \node[only123,outer sep=3mm,circle,draw,minimum size=\photosize,path picture={
+                \node at (path picture bounding box.center){\includegraphics[width=\photosize]{img/marenostrum}};
+            }] at (-1.5,0) (cluster) {};
+            \node[only123,anchor=north,align=center] at (cluster.south) {Cluster};
+            \node[only124,outer sep=3mm,circle,draw,minimum size=\photosize,path picture={
+                \node at (path picture bounding box.center){\includegraphics[width=\photosize]{img/multicore}};
+            }] at (-0.5,0) (multicore) {};
+            \node[only124,anchor=north,align=center] at (multicore.south) {Multi-Core};
+            \node[only1,outer sep=3mm,circle,draw,minimum size=\photosize,path picture={
+                \node at (path picture bounding box.center){\includegraphics[width=\photosize]{img/nvidia}};
+            }] at (0.5,0) (gpu) {};
+            \node[only1,anchor=north,align=center] at (gpu.south) {GPU};
+        \end{tikzpicture}
+    \end{figure}
+\end{frame}
+
+\section{Cluster Parallelization}
+
+\againframe<3>{types}
+
+\section{Multi-Core Parallelization}
+
+\againframe<4>{types}
+
 \end{document}
