@@ -23,6 +23,8 @@
     \titlepage
 \end{frame}
 
+\def\border{2mm}
+
 \begin{frame}<{1,2}>[label=types]
     \frametitle{\titleicon{Types of Parallelization}{cpu}}
     \begin{figure}
@@ -33,15 +35,15 @@
             only124/.style = {alt=<{1,2,4}>{opacity=1}{opacity=0.2}},
         ]
             \def\photosize{3.5cm}
-            \node[only123,outer sep=3mm,circle,draw,minimum size=\photosize,path picture={
+            \node[only123,outer sep=\border,circle,draw,minimum size=\photosize,path picture={
                 \node at (path picture bounding box.center){\includegraphics[width=\photosize]{img/marenostrum}};
             }] at (-1.5,0) (cluster) {};
             \node[only123,anchor=north,align=center] at (cluster.south) {Cluster};
-            \node[only124,outer sep=3mm,circle,draw,minimum size=\photosize,path picture={
+            \node[only124,outer sep=\border,circle,draw,minimum size=\photosize,path picture={
                 \node at (path picture bounding box.center){\includegraphics[width=\photosize]{img/multicore}};
             }] at (-0.5,0) (multicore) {};
             \node[only124,anchor=north,align=center] at (multicore.south) {Multi-Core};
-            \node[only1,outer sep=3mm,circle,draw,minimum size=\photosize,path picture={
+            \node[only1,outer sep=\border,circle,draw,minimum size=\photosize,path picture={
                 \node at (path picture bounding box.center){\includegraphics[width=\photosize]{img/nvidia}};
             }] at (0.5,0) (gpu) {};
             \node[only1,anchor=north,align=center] at (gpu.south) {GPU};
@@ -58,11 +60,11 @@
         \begin{tikzpicture}[xscale=5]
             \node at (+1.3,0) {};
             \node at (-1.3,0) {};
-            \node[outer sep=3mm] at (-1,0) (u) {\includegraphics[height=2cm]{img/icons/user}};
-            \node[outer sep=3mm] at (+0,0) (s) {\includegraphics[height=2cm]{img/icons/software}};
-            \node[outer sep=3mm] at (+1,0) (w) {\includegraphics[height=2cm]{img/icons/workstation}};
-            \draw[thick,-{Stealth}] (u) -- (s);
-            \draw[thick,-{Stealth}] (s) -- (w);
+            \node[outer sep=\border] at (-1,0) (u) {\includegraphics[height=2cm]{img/icons/user}};
+            \node[outer sep=\border] at (+0,0) (s) {\includegraphics[height=1cm]{img/icons/software}};
+            \node[outer sep=\border] at (+1,0) (w) {\includegraphics[height=2cm]{img/icons/workstation}};
+            \draw[thick,-{Stealth}] (u) -- node[above] {Write\vphantom{Jpy}} (s);
+            \draw[thick,-{Stealth}] (s) -- node[above] {Execute\vphantom{Jpy}} (w);
         \end{tikzpicture}
     \end{figure}
 \end{frame}
@@ -72,12 +74,27 @@
         \begin{tikzpicture}[xscale=5]
             \node at (+1.3,0) {};
             \node at (-1.3,0) {};
-            \node[outer sep=3mm] at (-1,0) (u) {\includegraphics[height=2cm]{img/icons/user}};
-            \node[outer sep=3mm] at (+0,0) (s) {\includegraphics[height=2cm]{img/icons/software}};
-            \node[outer sep=3mm] at (+1,0) (c) {\includegraphics[height=2cm]{img/icons/cluster}};
-            \draw[thick,-{Stealth}] (u) -- (s);
-            \draw[thick,-{Stealth}] (s) -- (c);
-            \node[outer sep=3mm] at ($(s.east)!0.5!(c.west)$) {\includegraphics[height=5mm]{img/icons/forbidden}};
+            \node[outer sep=\border] at (-1,0) (u) {\includegraphics[height=2cm]{img/icons/user}};
+            \node[outer sep=\border] at (+1,0) (c) {\includegraphics[height=2cm]{img/icons/cluster}};
+            \node[outer sep=\border] at ($(u)!0.5!(c)$) (s) {\includegraphics[height=1cm]{img/icons/software}};
+            \draw[thick,-{Stealth}] (u) -- node[above] {Write\vphantom{Jpy}} (s);
+            \draw[thick,-{Stealth}] (s) -- node {\includegraphics[height=5mm]{img/icons/forbidden}} (c);
+        \end{tikzpicture}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{\titleicon{Cluster Software Execution}{cluster}}
+    \begin{figure}
+        \begin{tikzpicture}[xscale=5]
+            \node at (+1.3,0) {};
+            \node at (-1.3,0) {};
+            \node[outer sep=\border] at (-1,0) (u) {\includegraphics[height=2cm]{img/icons/user}};
+            \node[outer sep=\border] at (+1,0) (c) {\includegraphics[height=2cm]{img/icons/cluster}};
+            \node[outer sep=\border] at ($(u)!0.33333!(c)$) (s) {\includegraphics[height=1cm]{img/icons/software}};
+            \node[outer sep=\border] at ($(u)!0.66666!(c)$) (l) {\includegraphics[height=2cm]{img/icons/server_network}};
+            \draw[thick,-{Stealth}] (u) -- node[above] {Write\vphantom{Jpy}} (s);
+            \draw[thick,-{Stealth}] (s) -- node[above] {Copy\vphantom{Jpy}} (l);
+            \draw[thick,-{Stealth}] (l) -- node[above] {Job\vphantom{Jpy}} (c);
         \end{tikzpicture}
     \end{figure}
 \end{frame}
