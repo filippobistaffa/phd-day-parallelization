@@ -1,4 +1,4 @@
-\documentclass[12pt,aspectratio=169,xcolor=dvipsnames]{beamer}
+\documentclass[12pt,aspectratio=169,xcolor=dvipsnames,hyperref={colorlinks,urlcolor=iiia_orange}]{beamer}
 \usetheme[pageofpages=of,% String used between the current page and the
                          % total page count.
           bullet=circle,% Use circles instead of squares for bullets.
@@ -9,6 +9,7 @@
 \usecolortheme{iiia}
 
 \usepackage{libertine}
+\usepackage[scaled=0.8]{FiraMono}
 
 \input{util}
 
@@ -98,6 +99,26 @@
             \draw[thick,-{Stealth}] (l) -- node[above] {Job\vphantom{Jpy}} (c);
         \end{tikzpicture}
     \end{figure}
+\end{frame}
+
+\newcommand{\giturl}[1]{\href{https://github.com/filippobistaffa/phd-day-parallelization/blob/main/#1}{\texttt{#1}}}
+
+\begin{frame}{\titleicon{Today's Menu}{list}}
+    \begin{itemize}
+        \setlength\itemsep{-1pt}
+        \item[\faGithub] Python hello world!
+        \item[] \giturl{cluster-parallel/hello.sh}
+        \item[\faGithub] Compile \href{https://github.com/ggerganov/llama.cpp}{\texttt{llama.cpp}}, a C++ LLM framework
+        \item[] \giturl{cluster-parallel/compile-llama.sh}
+        \item[\faGithub] Download the \href{https://lmsys.org/blog/2023-03-30-vicuna}{``vicuna''} LLM for \texttt{llama.cpp} on \texttt{beegfs}
+        \item[] \giturl{cluster-parallel/download-model-beegfs.sh}
+        \item[\faGithub] Generate a course description with \texttt{llama.cpp}
+        \item[] \giturl{cluster-parallel/description.sh}
+        \item[\faGithub] Compile \texttt{llama.cpp} with GPU support
+        \item[] \giturl{cluster-parallel/compile-llama-gpu.sh}
+        \item[\faGithub] Generate a course description with \texttt{llama.cpp} with GPU support
+        \item[] \giturl{cluster-parallel/description-gpu.sh}
+    \end{itemize}
 \end{frame}
 
 \section{Multi-Core Parallelization}
