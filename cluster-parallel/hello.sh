@@ -7,4 +7,4 @@
 #SBATCH --output=hello-world.out
 #SBATCH --error=hello-world.err
 
-srun python3 hello.py
+python3 hello.py
