@@ -53,6 +53,35 @@
 
 \againframe<3>{types}
 
+\begin{frame}{\titleicon{Local Software Execution}{workstation}}
+    \begin{figure}
+        \begin{tikzpicture}[xscale=5]
+            \node at (+1.3,0) {};
+            \node at (-1.3,0) {};
+            \node[outer sep=3mm] at (-1,0) (u) {\includegraphics[height=2cm]{img/icons/user}};
+            \node[outer sep=3mm] at (+0,0) (s) {\includegraphics[height=2cm]{img/icons/software}};
+            \node[outer sep=3mm] at (+1,0) (w) {\includegraphics[height=2cm]{img/icons/workstation}};
+            \draw[thick,-{Stealth}] (u) -- (s);
+            \draw[thick,-{Stealth}] (s) -- (w);
+        \end{tikzpicture}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{\titleicon{Cluster Software Execution}{cluster}}
+    \begin{figure}
+        \begin{tikzpicture}[xscale=5]
+            \node at (+1.3,0) {};
+            \node at (-1.3,0) {};
+            \node[outer sep=3mm] at (-1,0) (u) {\includegraphics[height=2cm]{img/icons/user}};
+            \node[outer sep=3mm] at (+0,0) (s) {\includegraphics[height=2cm]{img/icons/software}};
+            \node[outer sep=3mm] at (+1,0) (c) {\includegraphics[height=2cm]{img/icons/cluster}};
+            \draw[thick,-{Stealth}] (u) -- (s);
+            \draw[thick,-{Stealth}] (s) -- (c);
+            \node[outer sep=3mm] at ($(s.east)!0.5!(c.west)$) {\includegraphics[height=5mm]{img/icons/forbidden}};
+        \end{tikzpicture}
+    \end{figure}
+\end{frame}
+
 \section{Multi-Core Parallelization}
 
 \againframe<4>{types}
