@@ -57,43 +57,38 @@
 
 \againframe<3>{types}
 
-\begin{frame}{\titleicon{Local Software Execution}{workstation}}
+\begin{frame}
+    \frametitle<1>{\titleicon{Local Software Execution}{workstation}}
+    \frametitle<2>{\titleicon{Cluster Software Execution}{cluster}}
     \begin{figure}
-        \begin{tikzpicture}[xscale=5]
+        \begin{tikzpicture}[xscale=5.2]
             \node at (+1.3,0) {};
             \node at (-1.3,0) {};
             \node[outer sep=\border] at (-1,0) (u) {\includegraphics[height=2cm]{img/icons/user}};
+            \node[anchor=north,align=center] at (u.south) {Programmer};
             \node[outer sep=\border] at (+0,0) (s) {\includegraphics[height=1cm]{img/icons/software}};
-            \node[outer sep=\border] at (+1,0) (w) {\includegraphics[height=2cm]{img/icons/workstation}};
-            \draw[thick,-{Stealth}] (u) -- node[font=\footnotesize,above] {Write\vphantom{Jpy}} node[font=\footnotesize,below] {Software} (s);
-            \draw[thick,-{Stealth}] (s) -- node[font=\footnotesize,above] {Execute\vphantom{Jpy}} node[font=\footnotesize,below] {Software} (w);
-            \node[anchor=north,align=center] at (u.south) {Programmer};
             \node[anchor=north,align=center] at (s|-u.south) {Software};
-            \node[anchor=north,align=center] at (w|-u.south) {Workstation};
+            \draw[thick,-{Stealth}] (u) -- node[font=\footnotesize,above] {Write\vphantom{Jpy}} node[font=\footnotesize,below] {Software} (s);
+            \only<1>{
+                \node[outer sep=\border] at (+1,0) (w) {\includegraphics[height=2cm]{img/icons/workstation}};
+                \node[anchor=north,align=center] at (w|-u.south) {Workstation};
+                \draw[thick,-{Stealth}] (s) -- node[font=\footnotesize,above] {Execute\vphantom{Jpy}}
+                                               node[font=\footnotesize,below] {Software} (w);
+            }
+            \only<2>{
+                \node[outer sep=\border] at (+1,0) (w) {\includegraphics[height=2cm]{img/icons/cluster}};
+                \node[anchor=north,align=center] at (w|-u.south) {\href{https://informatica.doc.iiia.csic.es/cap-ia/}{CAP-IA}};
+                \draw[thick,-{Stealth}] (s) -- node[font=\footnotesize,above] {Execute\vphantom{Jpy}} 
+                                               node[font=\footnotesize,below] {Software}
+                                               node[opacity=0.7] {\includegraphics[height=15mm]{img/icons/forbidden}} (w);
+            }
         \end{tikzpicture}
     \end{figure}
 \end{frame}
 
 \begin{frame}{\titleicon{Cluster Software Execution}{cluster}}
     \begin{figure}
-        \begin{tikzpicture}[xscale=5]
-            \node at (+1.3,0) {};
-            \node at (-1.3,0) {};
-            \node[outer sep=\border] at (-1,0) (u) {\includegraphics[height=2cm]{img/icons/user}};
-            \node[outer sep=\border] at (+1,0) (c) {\includegraphics[height=2cm]{img/icons/cluster}};
-            \node[outer sep=\border] at ($(u)!0.5!(c)$) (s) {\includegraphics[height=1cm]{img/icons/software}};
-            \draw[thick,-{Stealth}] (u) -- node[font=\footnotesize,above] {Write\vphantom{Jpy}} node[font=\footnotesize,below] {Software} (s);
-            \draw[thick,-{Stealth}] (s) -- node {\includegraphics[height=5mm]{img/icons/forbidden}} (c);
-            \node[anchor=north,align=center] at (u.south) {Programmer};
-            \node[anchor=north,align=center] at (s|-u.south) {Software};
-            \node[anchor=north,align=center] at (c|-u.south) {\href{https://informatica.doc.iiia.csic.es/cap-ia/}{CAP-IA}/\href{https://cesga-docs.gitlab.io/ft3-user-guide/overview.html\#node-groups-description}{CESGA}};
-        \end{tikzpicture}
-    \end{figure}
-\end{frame}
-
-\begin{frame}{\titleicon{Cluster Software Execution}{cluster}}
-    \begin{figure}
-        \begin{tikzpicture}[xscale=5]
+        \begin{tikzpicture}[xscale=5.2]
             \node at (+1.3,0) {};
             \node at (-1.3,0) {};
             \node[outer sep=\border] at (-1,0) (u) {\includegraphics[height=2cm]{img/icons/user}};
@@ -106,7 +101,7 @@
             \node[anchor=north,align=center] at (u.south) {Programmer};
             \node[anchor=north,align=center] at (s|-u.south) {Software};
             \node[anchor=north,align=center] at (l|-u.south) {\texttt{vega.iiia.csic.es}};
-            \node[anchor=north,align=center] at (c|-u.south) {CAP-IA};
+            \node[anchor=north,align=center] at (c|-u.south) {\href{https://informatica.doc.iiia.csic.es/cap-ia/}{CAP-IA}};
         \end{tikzpicture}
     \end{figure}
 \end{frame}
