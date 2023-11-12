@@ -65,8 +65,8 @@
             \node[outer sep=\border] at (-1,0) (u) {\includegraphics[height=2cm]{img/icons/user}};
             \node[outer sep=\border] at (+0,0) (s) {\includegraphics[height=1cm]{img/icons/software}};
             \node[outer sep=\border] at (+1,0) (w) {\includegraphics[height=2cm]{img/icons/workstation}};
-            \draw[thick,-{Stealth}] (u) -- node[above] {Write\vphantom{Jpy}} (s);
-            \draw[thick,-{Stealth}] (s) -- node[above] {Execute\vphantom{Jpy}} (w);
+            \draw[thick,-{Stealth}] (u) -- node[font=\footnotesize,above] {Write\vphantom{Jpy}} node[font=\footnotesize,below] {Software} (s);
+            \draw[thick,-{Stealth}] (s) -- node[font=\footnotesize,above] {Execute\vphantom{Jpy}} node[font=\footnotesize,below] {Software} (w);
             \node[anchor=north,align=center] at (u.south) {Programmer};
             \node[anchor=north,align=center] at (s|-u.south) {Software};
             \node[anchor=north,align=center] at (w|-u.south) {Workstation};
@@ -82,7 +82,7 @@
             \node[outer sep=\border] at (-1,0) (u) {\includegraphics[height=2cm]{img/icons/user}};
             \node[outer sep=\border] at (+1,0) (c) {\includegraphics[height=2cm]{img/icons/cluster}};
             \node[outer sep=\border] at ($(u)!0.5!(c)$) (s) {\includegraphics[height=1cm]{img/icons/software}};
-            \draw[thick,-{Stealth}] (u) -- node[above] {Write\vphantom{Jpy}} (s);
+            \draw[thick,-{Stealth}] (u) -- node[font=\footnotesize,above] {Write\vphantom{Jpy}} node[font=\footnotesize,below] {Software} (s);
             \draw[thick,-{Stealth}] (s) -- node {\includegraphics[height=5mm]{img/icons/forbidden}} (c);
             \node[anchor=north,align=center] at (u.south) {Programmer};
             \node[anchor=north,align=center] at (s|-u.south) {Software};
@@ -100,9 +100,9 @@
             \node[outer sep=\border] at (+1,0) (c) {\includegraphics[height=2cm]{img/icons/cluster}};
             \node[outer sep=\border] at ($(u)!0.33333!(c)$) (s) {\includegraphics[height=1cm]{img/icons/software}};
             \node[outer sep=\border] at ($(u)!0.66666!(c)$) (l) {\includegraphics[height=2cm]{img/icons/server_network}};
-            \draw[thick,-{Stealth}] (u) -- node[above] {Write\vphantom{Jpy}} (s);
-            \draw[thick,-{Stealth}] (s) -- node[above] {Copy\vphantom{Jpy}} (l);
-            \draw[thick,-{Stealth}] (l) -- node[above] {Job\vphantom{Jpy}} (c);
+            \draw[thick,-{Stealth}] (u) -- node[font=\footnotesize,above] {Write\vphantom{Jpy}} node[font=\footnotesize,below] {Software} (s);
+            \draw[thick,-{Stealth}] (s) -- node[font=\footnotesize,above] {Copy\vphantom{Jpy}} node[font=\footnotesize,below] {Software} (l);
+            \draw[thick,-{Stealth}] (l) -- node[font=\footnotesize,above] {Submit\vphantom{Jpy}} node[font=\footnotesize,below] {Job} (c);
             \node[anchor=north,align=center] at (u.south) {Programmer};
             \node[anchor=north,align=center] at (s|-u.south) {Software};
             \node[anchor=north,align=center] at (l|-u.south) {\texttt{vega.iiia.csic.es}};
