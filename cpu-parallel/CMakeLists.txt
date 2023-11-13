@@ -17,11 +17,11 @@ set(OPTIMIZATION_COMPILE_FLAGS
 
 find_package(OpenMP REQUIRED)
 include_directories(fmt/include)
-
-set(EXAMPLES "basic-loop" "basic-loop-openmp" "dynamic-scheduling" "parallel-reduction")
+file(GLOB EXAMPLES "*.cpp")
 
 foreach (EXAMPLE ${EXAMPLES})
-    add_executable(${EXAMPLE} ${EXAMPLE}.cpp)
-    target_compile_options(${EXAMPLE} PRIVATE ${PEDANTIC_COMPILE_FLAGS} ${OPTIMIZATION_COMPILE_FLAGS})
-    target_link_libraries(${EXAMPLE} PRIVATE OpenMP::OpenMP_CXX)
+    get_filename_component(NAME ${EXAMPLE} NAME_WE)
+    add_executable(${NAME} ${NAME}.cpp)
+    target_compile_options(${NAME} PRIVATE ${PEDANTIC_COMPILE_FLAGS} ${OPTIMIZATION_COMPILE_FLAGS})
+    target_link_libraries(${NAME} PRIVATE OpenMP::OpenMP_CXX)
 endforeach()

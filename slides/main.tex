@@ -132,4 +132,22 @@
 
 \againframe<4>{types}
 
+\begin{frame}{\titleicon{Today's Menu}{list}}
+    \begin{itemize}
+        \setlength\itemsep{-1pt}
+        \item[\faGithub] Setup CMake to compile C++ examples
+        \item[] \giturl{cpu-parallel/CMakeLists.txt}
+        \item[\faGithub] Basic sequential \texttt{for} loop
+        \item[] \giturl{cpu-parallel/basic-loop.cpp}
+        \item[\faGithub] Basic parallel \texttt{for} loop with \href{https://www.openmp.org}{OpenMP}
+        \item[] \giturl{cpu-parallel/basic-loop-openmp.cpp}
+        \item[\faGithub] Static \textit{vs} dynamic scheduling
+        \item[] \giturl{cpu-parallel/dynamic-scheduling.cpp}
+        \item[\faGithub] Parallel sum-reduction with \texttt{reduction}
+        \item[] \giturl{cpu-parallel/parallel-reduction.cpp}
+        \item[\faGithub] Parallelized \textit{vs} un-parallelized sections (\href{https://en.wikipedia.org/wiki/Amdahl\%27s_law}{Amdahl's law})
+        \item[] \giturl{cpu-parallel/amdahl-law.cpp}
+    \end{itemize}
+\end{frame}
+
 \end{document}
