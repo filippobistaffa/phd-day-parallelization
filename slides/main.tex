@@ -57,13 +57,15 @@
 
 \againframe<3>{types}
 
+\def\xscale{5.3}
+
 \begin{frame}
     \frametitle<1>{\titleicon{Local Software Execution}{workstation}}
     \frametitle<2>{\titleicon{Cluster Software Execution}{cluster}}
     \begin{figure}
-        \begin{tikzpicture}[xscale=5.2]
-            \node at (+1.3,0) {};
-            \node at (-1.3,0) {};
+        \begin{tikzpicture}[xscale=\xscale]
+            \node at (+1.25,0) {};
+            \node at (-1.25,0) {};
             \node[outer sep=\border] at (-1,0) (u) {\includegraphics[height=2cm]{img/icons/user}};
             \node[anchor=north,align=center] at (u.south) {Programmer};
             \node[outer sep=\border] at (+0,0) (s) {\includegraphics[height=1cm]{img/icons/software}};
@@ -88,9 +90,9 @@
 
 \begin{frame}{\titleicon{Cluster Software Execution}{cluster}}
     \begin{figure}
-        \begin{tikzpicture}[xscale=5.2]
-            \node at (+1.3,0) {};
-            \node at (-1.3,0) {};
+        \begin{tikzpicture}[xscale=\xscale]
+            \node at (+1.25,0) {};
+            \node at (-1.25,0) {};
             \node[outer sep=\border] at (-1,0) (u) {\includegraphics[height=2cm]{img/icons/user}};
             \node[outer sep=\border] at (+1,0) (c) {\includegraphics[height=2cm]{img/icons/cluster}};
             \node[outer sep=\border] at ($(u)!0.33333!(c)$) (s) {\includegraphics[height=1cm]{img/icons/software}};
