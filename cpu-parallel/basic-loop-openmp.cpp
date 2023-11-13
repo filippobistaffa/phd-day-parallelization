@@ -37,13 +37,14 @@ int main() {
     auto loop = std::chrono::system_clock::now();
     // Element-wise sum (parallel)
     //omp_set_num_threads(4);
+    fmt::print("Threads: {}\n", omp_get_max_threads());
     #pragma omp parallel for
     for (int i = 0; i < n; ++i) {
         c[i] = a[i] + b[i];
         busy_wait(std::chrono::seconds(1));
     }
     // Print runtime
-    fmt::print("Loop : {:%T}\n", std::chrono::system_clock::now() - loop);
-    fmt::print("Total: {:%T}\n", std::chrono::system_clock::now() - total);
+    fmt::print("Loop   : {:%T}\n", std::chrono::system_clock::now() - loop);
+    fmt::print("Total  : {:%T}\n", std::chrono::system_clock::now() - total);
     return EXIT_SUCCESS;
 }

@@ -40,7 +40,7 @@ int main() {
         busy_wait(std::chrono::seconds(1));
     }
     // Print runtime
-    fmt::print("Loop : {:%T}\n", std::chrono::system_clock::now() - loop);
-    fmt::print("Total: {:%T}\n", std::chrono::system_clock::now() - total);
+    fmt::print("Loop   : {:%T}\n", std::chrono::system_clock::now() - loop);
+    fmt::print("Total  : {:%T}\n", std::chrono::system_clock::now() - total);
     return EXIT_SUCCESS;
 }

@@ -3,6 +3,7 @@
 #include <numeric>
 #include <chrono>
 #include <thread>
+#include <omp.h>
 
 // fmt library
 #define FMT_HEADER_ONLY
@@ -35,6 +36,7 @@ int main() {
     // Start loop timer
     auto loop = std::chrono::system_clock::now();
     // Element-wise sum (parallel)
+    fmt::print("Threads: {}\n", omp_get_max_threads());
     #pragma omp parallel for schedule(dynamic)
     for (int i = 0; i < n; ++i) {
         c[i] = a[i] + b[i];
@@ -43,7 +45,7 @@ int main() {
         }
     }
     // Print runtime
-    fmt::print("Loop : {:%T}\n", std::chrono::system_clock::now() - loop);
-    fmt::print("Total: {:%T}\n", std::chrono::system_clock::now() - total);
+    fmt::print("Loop   : {:%T}\n", std::chrono::system_clock::now() - loop);
+    fmt::print("Total  : {:%T}\n", std::chrono::system_clock::now() - total);
     return EXIT_SUCCESS;
 }
