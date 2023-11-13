@@ -18,7 +18,7 @@ set(OPTIMIZATION_COMPILE_FLAGS
 find_package(OpenMP REQUIRED)
 include_directories(fmt/include)
 
-set(EXAMPLES "basic-loop" "basic-loop-openmp" "dynamic-scheduling")
+set(EXAMPLES "basic-loop" "basic-loop-openmp" "dynamic-scheduling" "parallel-reduction")
 
 foreach (EXAMPLE ${EXAMPLES})
     add_executable(${EXAMPLE} ${EXAMPLE}.cpp)
