@@ -12,4 +12,4 @@
 spack load cuda@11.8.0
 spack load --first py-pandas
 
-python3 description-mixtral.py --n-gpu-layers 32
+python3 description-mixtral.py --n-gpu-layers 12
